@@ -26,3 +26,8 @@ hr {
 img {
   max-width: 100%;
 }
+
+h2 a {
+  color: red;
+  cursor: pointer;
+}

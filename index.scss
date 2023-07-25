@@ -28,3 +28,10 @@ hr {
 img {
   max-width: 100%;
 }
+
+// nesting is a feature in sass
+h2 {
+  a {
+    color: red;
+  }
+}
