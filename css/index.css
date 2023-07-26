@@ -29,5 +29,41 @@ img {
 
 h2 a {
   color: red;
-  cursor: pointer;
+}
+
+h1 {
+  color: #326dee;
+  margin-bottom: base-margin;
+}
+
+a {
+  color: #1ac888;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+  border-radius: 20px;
+  padding: 0.75rem;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.notification {
+  color: #1ac888;
+  border-color: #1ac888;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
 }
