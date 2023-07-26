@@ -44,7 +44,7 @@ button {
   color: white;
   border: 0;
   background: #326dee;
-  border-radius: 20px;
+  border-radius: 200px;
   padding: 0.75rem;
 }
 
@@ -54,7 +54,7 @@ button {
   border-style: solid;
   margin: 0.75rem;
   padding: 0.75rem;
-  border-radius: 20px;
+  border-radius: 200px;
   border-width: 1px;
 }
 
@@ -64,6 +64,6 @@ button {
   border-style: solid;
   margin: 0.75rem;
   padding: 0.75rem;
-  border-radius: 20px;
+  border-radius: 200px;
   border-width: 1px;
 }
