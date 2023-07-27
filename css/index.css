@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* reset styles */
 * {
   color: inherit;
   margin: 0;
@@ -25,43 +27,20 @@ img {
   max-width: 100%;
 }
 
-h2 a {
-  color: red;
-}
-
-h1 {
-  color: #326dee;
-  margin-bottom: base-margin;
-}
-
-a {
-  color: #1ac888;
-}
-
-button {
-  color: white;
-  border: 0;
-  background: #326dee;
-  border-radius: 200px;
+.card {
+  display: block;
   padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
-.error {
-  color: #d32752;
-  border-color: #d32752;
-  border-style: solid;
-  margin: 0.75rem;
+.card .card-title {
+  font-size: 1rem;
   padding: 0.75rem;
-  border-radius: 200px;
-  border-width: 1px;
+  font-weight: bold;
 }
-
-.notification {
-  color: #1ac888;
-  border-color: #1ac888;
-  border-style: solid;
-  margin: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 200px;
-  border-width: 1px;
+.card .card-body font-size {
+  font-size: 1rem;
+}
+.card .card-body font-size a {
+  text-decoration: underline;
 }
